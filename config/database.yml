@@ -5,12 +5,13 @@
 #   gem "sqlite3"
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
-  <<: *default
+  # <<: *default
+  adapter: sqlite3
   database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
@@ -22,4 +23,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: dc16e9keudn5sn
+  username: ubfkrnrvupcbvm
+  host: ec2-3-225-110-188.compute-1.amazonaws.com
+  password: 2a502e5807b7d11fa31ea922b88991cc8bcec9993b360ff8e76acdce239c5239
