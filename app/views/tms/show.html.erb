@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @tm %>
+
+<div>
+  <%= link_to "Edit this tm", edit_tm_path(@tm) %> |
+  <%= link_to "Back to tms", tms_path %>
+
+  <%= button_to "Destroy this tm", @tm, method: :delete %>
+</div>
