@@ -22,7 +22,7 @@ test:
 
 production:
   <<: *default
-  database: dc16e9keudn5sn
-  username: ubfkrnrvupcbvm
+  database: d8qg7t1euo0vcc
+  username: yhqpvzlojbifnq
   host: ec2-3-225-110-188.compute-1.amazonaws.com
-  password: 2a502e5807b7d11fa31ea922b88991cc8bcec9993b360ff8e76acdce239c5239
+  password: 3c5a1f0bc8d6de290d1a2a173640a3ab59ac57398cfc68bc445783f58dcca5e1
